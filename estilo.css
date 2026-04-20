@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 320px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+p {
+    color: #444;
+}
+
+.info {
+    font-size: 14px;
+    color: green;
+}
+
+button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.whatsapp-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
