@@ -1,41 +1,39 @@
 body {
     font-family: Arial;
-    background: linear-gradient(135deg, #25D366, #128C7E);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
+    background: #25D366;
+    text-align: center;
+    padding-top: 80px;
 }
 
 .box {
     background: white;
-    padding: 40px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    width: 320px;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 p {
     color: #444;
+    margin: 8px 0;
 }
 
 .info {
-    font-size: 14px;
     color: green;
+    font-weight: bold;
 }
 
 button {
-    background-color: #25D366;
-    color: white;
+    background: #25D366;
     border: none;
-    padding: 15px;
-    font-size: 16px;
+    color: white;
+    padding: 14px;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -45,10 +43,9 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25D366;
+    background: #25D366;
     color: white;
     padding: 15px;
     border-radius: 50px;
     text-decoration: none;
-    font-weight: bold;
 }
